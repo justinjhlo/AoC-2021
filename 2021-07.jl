@@ -31,4 +31,4 @@ function day7(f, part)
         fuel = minimum(fuels)
     end
     return fuel
-    end
+end
