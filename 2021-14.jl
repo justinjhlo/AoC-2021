@@ -39,7 +39,6 @@ function read_polymer(f)
     return l[1], rules
 end
 
-
 function day14(f, step)
     template, rules = read_polymer(f)
     pairs = Dict{String, Int}()
